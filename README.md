@@ -48,6 +48,7 @@ GET /palindromo/json/oso
 🧠 Arquitectura del proyecto
 El proyecto sigue las buenas prácticas de separación de responsabilidades:
 
+```json
 src/
 ├── controllers/        → Lógica de enrutado HTTP (Petición del usuario)
 │   └── PalindromeController.java
@@ -55,6 +56,7 @@ src/
 │   └── PalindromeService.java
 ├── dtos/               → Objeto de transferencia de datos (JSON)
 │   └── PalindromeResult.java
+```
 
 ⚙️ Lógica utilizada para detectar palíndromos
 
@@ -76,11 +78,12 @@ Esta función compara letra por letra desde los extremos hacia el centro para co
 
 
 💡 Tecnologías utilizadas
-Java 17+
 
-Spring Boot
+- Java 17+
 
-Maven
+- Spring Boot
+
+- Maven
 
 🛠️ Cómo ejecutar el proyecto
 Clona el repositorio:
